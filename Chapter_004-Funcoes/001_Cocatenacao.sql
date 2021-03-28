@@ -1,0 +1,11 @@
+
+
+
+--
+SELECT * FROM TALUNO;
+
+--
+SELECT Concat(COD_ALUNO,NOME) FROM TALUNO;
+
+-- ccocatenacao
+SELECT COD_ALUNO||' - '||NOME FROM TALUNO;
